@@ -5,7 +5,7 @@ body{
 }
 .container{
     display: grid;
-    grid-template-columns: 33% 34% 35px 35px 27%;
+    grid-template-columns: 25% 42% 35px 35px 27%;
     background: #890A0A;
 }
 header{
@@ -13,10 +13,10 @@ header{
     height: 80px;
 }
 a.left{
-    margin-left: 70%;
+    margin-left: 90% ;
     margin-top: 30px;
-    min-height: 10px;
-    min-width: 10px;
+    min-height: 20px;
+    min-width: 20px;
     max-width: 20px;
     max-height: 20px;
 }
@@ -31,10 +31,8 @@ h2{
     min-width: 20px;
     max-width: 30px;
     max-height: 30px;
-}
-div.table{
+}div.table{
     height: 80px;
-    background-color: red;
 
 }
  div h1{
@@ -42,11 +40,19 @@ div.table{
     font-size: 30px;
     text-align: center;
     color: #FFF8F3;
+    margin:0;
 }
-hgroup h2{
-    font-family: 'Kurale', serif; 
+div h2{
+    font-family: 'Lora', serif; 
+    font-size: 15px ;
     color: #FFF8F3;
-    }    
+    margin:0;
+    }  
+@media (max-width: 720px){
+    body{
+    background-color: black;
+    }
+}  
 
 
 
