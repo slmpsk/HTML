@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    color:aquamarine;
+    background-color:#FFF8F3;
 }
 .container{
     display: grid;
@@ -27,8 +27,8 @@ h2{
  a.right{
     align: right;
     margin-top: 30px;
-    min-height: 20px;
-    min-width: 20px;
+    min-height: 15px;
+    min-width: 15px;
     max-width: 30px;
     max-height: 30px;
 }div.table{
@@ -39,7 +39,7 @@ h2{
     font-family: 'Kurale', serif; 
     font-size: 30px;
     text-align: center;
-    color: #FFF8F3;
+    color: #FDD8D8;
     margin:0;
 }
 div h2{
@@ -47,11 +47,31 @@ div h2{
     font-size: 15px ;
     color: #FFF8F3;
     margin:0;
-    }  
+    } 
+main img.foto{
+    height: 250px;
+    border-radius: 10px; 
+} 
+main a.bottom{
+    background-color:#FDD8D8;
+    padding: 15px;
+    border-radius: 10px;
+
+}
 @media (max-width: 720px){
-    body{
-    background-color: black;
+    div h1{
+        font-size: 20px;
     }
+    a.left{
+        margin-left: 40%;
+    }
+    a.margin{
+        margin-left: 3px;
+    }
+
+    }
+
+
 }  
 
 
